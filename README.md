@@ -1,16 +1,37 @@
-# oped
+# Flutter Project
 
-A new Flutter project.
+## Overview
 
-## Getting Started
+This is a Flutter project for managing tasks.
 
-This project is a starting point for a Flutter application.
+## Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+Before you begin, ensure you have met the following requirements:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- You have installed Flutter SDK
+- You have installed an IDE such as Android Studio or Visual Studio Code
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Installation
+
+1. **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/pbrandl/oped_flutter.git
+    cd oped_flutter
+    ```
+
+2. **Get dependencies:**
+
+    ```bash
+    flutter pub get
+    ```
+
+3. **Run the app:**
+
+    ```bash
+    flutter run
+    ```
+
+## CORS Troubleshooting
+
+In combination with Flutter you may need to add your port as `localhost:xxxx` in `opeddjango/settings.py` in `CORS_ALLOWED_ORIGINS` to use the API.  
