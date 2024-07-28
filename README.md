@@ -9,8 +9,7 @@ This is a Flutter project for managing tasks.
 Before you begin, ensure you have met the following requirements:
 
 - You have installed Flutter 3.17.0 and Dart 3.3.0
-- You have installed an IDE such as Android Studio or Visual Studio Code
-
+  
 ## Installation
 
 1. **Clone the repository:**
